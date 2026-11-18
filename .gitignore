@@ -1,0 +1,56 @@
+# ── Node / Next.js ───────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+.next/
+out/
+build/
+.vercel/
+
+# ── Python / Backend ─────────────────────────────────────────
+backend/venv_win/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Environment Variables ────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Database / Local Storage ─────────────────────────────────
+local-dbs/
+*.rdb
+
+# ── User Data / Media ────────────────────────────────────────
+Tutorial_Videos/
+
+# ── OS / Editor / Misc ───────────────────────────────────────
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary Scripts
+update_zoho_prices.py
+
+seed/
